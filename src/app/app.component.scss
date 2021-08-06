@@ -1,0 +1,67 @@
+.row {
+  width: 100%;
+  height: 100vh;
+}
+
+.signup-background {
+  background: radial-gradient(
+      87.4% 87.4% at 14.43% -27.4%,
+      #f9e1fd 0%,
+      rgba(236, 27, 140, 0) 100%
+    ),
+    url("/assets/signup_background.png");
+
+  display: grid;
+  place-items: center;
+
+  .signup-title {
+    gap: 20px;
+    span {
+      font-family: "Helvetica Now Display Black";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 61px;
+      line-height: 100%;
+      color: #ffffff;
+    }
+  }
+
+  .signup-subtitle {
+    li {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 35px;
+      line-height: 100%;
+      color: #ffffff;
+      margin-top: 35px;
+    }
+  }
+}
+
+.signup-form {
+  display: grid;
+  place-items: center;
+  input:not(.form-check-input) {
+    height: 48px;
+    border: 1px solid rgba(17, 17, 19, 0.2);
+    border-radius: 10px;
+  }
+  form div.control {
+    margin-bottom: 44px;
+  }
+  .divide {
+    h5 {
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid rgba(17, 17, 19, 0.2);
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+      font-size: 12px;
+    }
+
+    h5 span {
+      background: #fff;
+      padding: 0 10px;
+    }
+  }
+}
